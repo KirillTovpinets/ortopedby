@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+.top-bar{
+    background-color: #00a3c8;
+    color:#fff;
+    padding: 15px 0px;
+}
+
+.top-bar .contact-item{
+    margin-right: 20px;
+}
+
+.navbar{
+    padding: 30px 0px;
+}
+.logo{
+    margin-right: 20px;
+    display: inline;
+
+}
+.navbar .title-container{
+    width: 40%;
+    word-wrap: break-word;
+}
+.title-container .header-title{
+    font-size:14px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+.title-container .small-title{
+    font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active
+{
+    color:#00a3c8;
+}
+.header-image{
+    height: 500px;
+    background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/washi.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-image .slogan{
+    color:#fff;
+    font-size:50px;
+}
+.header-image .slogan-phrase{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 45px;
+    display: inline-block;
+    border-radius: 50px;
+}
+.main-services{
+    margin-top: -60px;
+}
+.main-services .service{
+    background-color: #00a3c8;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+.service .fa{
+    font-size:60px;
+}
+.main-services .profilaction-service{
+    background-color: #0097b9;
+}
+.main-services .costed-service{
+    background-color: #008eaf;
+}
+
+.main-services .abroad-services{
+    background-color: #0086a4;
+}
+.main-services .service .icon{
+    margin-bottom: 30px;
+}
+.section-block{
+    padding: 100px 0px;
+}
+.section-title{
+    font-size:40px;
+    text-align: center;
+}
+.section-title+.divider{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title+.divider:before,
+.section-title+.divider:after{
+    content:'';
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #00a3c8;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #00a3c8;
+}
+.nav-pills .nav-link{
+    border-radius: 0px;
+    padding: 15px;
+    color:#666;
+}
+.btn{
+    border-radius: 0px;
+}
+.btn-default{
+    background-color: #00a3c8;
+    color: #fff;
+}
+.services-container .tab-content{
+    padding: 20px;
+}
+.news-section{
+    background-color: rgba(128, 128, 128, .1);
+}
+.numbers{
+    background: url('http://placehold.it/1500x500');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.numbers:before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #00a3c8;
+    opacity: .4;
+}
+.numbers .number-container{
+    text-align: center;
+    color: #fff;
+}
+.numbers .number-container .icon{
+    font-size:50px;
+}
+.number-container .number{
+    font-size:50px;
+}
+.number-container .title{
+    font-size:20px;
+}
