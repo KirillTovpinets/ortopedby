@@ -118,8 +118,33 @@
 .services-container .tab-content{
     padding: 20px;
 }
-.news-section{
+.news-section .card,
+.news-section .card img{
+    border-radius: 0px;
+    border:none;
     background-color: rgba(128, 128, 128, .1);
+}
+.card .card-text{
+    color:#888;
+}
+.news-section .card .img-container{
+    position: relative;
+}
+.card .published-on{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #00a3c8;
+    padding: 20px;
+    color: #fff;
+}
+.card .published-on span{
+    display: block;
+    text-align: center;
+    font-size:16px;
+}
+.card .published-on .date{
+    font-size:20px;
 }
 .numbers{
     background: url('http://placehold.it/1500x500');

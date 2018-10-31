@@ -29,5 +29,25 @@ numbers.forEach((element, index) => {
         }
     }, 10);
 })
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        margin:20,
+        lazyLoad:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+  });
 
 
