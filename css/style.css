@@ -147,7 +147,7 @@ form .form-control:focus{
 .card .card-text{
     color:#888;
 }
-.news-section .card .img-container,{
+.img-container,{
     position: relative;
 }
 .conferences{
@@ -231,4 +231,11 @@ form .form-control:focus{
     height: 100%;
     background-color: rgba(255, 255, 255, .6);
     z-index: -1;
+}
+.links-section{
+    padding: 20px;
+    background-color: #00a3c8;
+}
+.links-section img{
+    filter:contrast(90%);
 }
