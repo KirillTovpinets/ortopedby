@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
+    <div class="overlay animated"></div>
     <header>
         <div class="top-bar">
             <div class="container">
@@ -68,7 +70,7 @@
             </div>
         </nav>
         <div class="header-image">
-            <h3 class="slogan"><span class="slogan-phrase">ВОЗВРАЩАЕМ ПОЛНОЦЕННУЮ ЖИЗНЬ</span></h3>
+            <h3 class="slogan animated"><span class="slogan-phrase">ВОЗВРАЩАЕМ ПОЛНОЦЕННУЮ ЖИЗНЬ</span></h3>
         </div>
     </header>
     <main>
@@ -233,7 +235,7 @@
                 <div class="divider">
                     <img src="img/title-icon.png" alt="">
                 </div>
-                    <div class="owl-carousel" role="listbox">
+                    <div class="owl-carousel news-carousel" role="listbox">
                         <div class="card">
                             <div class="img-container">
                                 <img src="http://placehold.it/300x300/F70808" alt="card" class="card-img-top">
@@ -281,7 +283,80 @@
                     </div>
             </div>
         </section>
+        <section class="section-block conferences">
+            <div class="container">
+                <h4 class="section-title">КОНФЕРЕНЦИИ И СЕМИНАРЫ</h4>
+                <div class="divider">
+                    <img src="img/title-icon.png" alt="">
+                </div>
+                <div class="conference">
+                    <div class="icon"><i class="fas fa-newspaper"></i></div>
+                    <h3 class="title">News Title</h3>
+                    <span class="date">01.11.2018</span>
+                    <p class="description">Irure do velit consectetur veniam ea ipsum laborum. Sint nostrud fugiat qui sit ad eiusmod consectetur velit consectetur deserunt do nisi reprehenderit eiusmod. Labore velit veniam occaecat veniam cillum mollit cupidatat ullamco minim deserunt magna aute.</p>
+                </div>
+                <div class="conference">
+                    <div class="icon"><i class="fas fa-newspaper"></i></div>
+                    <h3 class="title">News Title</h3>
+                    <span class="date">01.11.2018</span>
+                    <p class="description">Do ex minim adipisicing occaecat et minim. Amet laborum enim ipsum aliqua commodo consectetur in. Elit tempor qui exercitation cupidatat labore amet est ipsum et est culpa in non. Anim fugiat magna eu ex. Nostrud reprehenderit id amet incididunt amet ea. Reprehenderit veniam aliqua dolore reprehenderit proident duis ad qui incididunt. Incididunt id eu cillum non in mollit Lorem.</p>
+                </div>
+                <div class="conference">
+                    <div class="icon"><i class="fas fa-newspaper"></i></div>
+                    <h3 class="title">News Title</h3>
+                    <span class="date">01.11.2018</span>
+                    <p class="description">Sint proident sunt aute dolore eu. Laboris reprehenderit sint minim voluptate deserunt aliqua. Anim ad cillum commodo laboris ut sunt nulla. Eu fugiat quis ullamco ipsum pariatur ut do quis exercitation in. Minim minim aliqua ullamco minim eu do. Dolore proident cillum sit mollit dolore.</p>
+                </div>
+                <div class="conference">
+                    <div class="icon"><i class="fas fa-newspaper"></i></div>
+                    <h3 class="title">News Title</h3>
+                    <span class="date">01.11.2018</span>
+                    <p class="description">Incididunt Lorem veniam et excepteur est nostrud anim consectetur do. Fugiat aute veniam amet deserunt. Ea nisi cillum sint laborum. Eiusmod quis dolore ea labore ullamco officia aute.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-block contact-form">
+            <div class="container">
+                <h4 class="section-title">НАПИШИТЕ НАМ</h4>
+                <div class="divider">
+                    <img src="img/title-icon.png" alt="">
+                </div>
+                <form action="" method="POST" role="form">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="name">Имя</label>
+                            <input type="text" class="form-control" id="" name="name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">email</label>
+                            <input type="email" class="form-control" id="" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Тема</label>
+                        <input type="text" name="subject" id="inputsubject" class="form-control" value="" required="required" pattern="" title="">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+                
+            </div>
+        </section>
+        <section class="links-section">
+            <div class="container">
+                <div class="owl-carousel links-carousel">
+                    <a href="#"><img src="img/logos/logo_1.png" alt=""></a>
+                    <a href="#"><img src="img/logos/logo_2.png" alt=""></a>
+                    <a href="#"><img src="img/logos/logo_3.png" alt=""></a>
+                    <a href="#"><img src="img/logos/logo_4.png" alt=""></a>
+                </div>
+            </div>
+        </section>
     </main>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js//owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
