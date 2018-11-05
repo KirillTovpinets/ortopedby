@@ -48,6 +48,11 @@ $(document).ready(function(){
             }
         }
     })
+
+    setTimeout(() => {
+        $(".slogan").addClass("fadeInUp");
+    }, 1000);
+    $(".overlay").addClass("fadeOut");
   });
 
 
