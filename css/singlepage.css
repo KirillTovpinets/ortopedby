@@ -82,3 +82,39 @@ header .page-title:before{
 .content{
     padding: 80px 0px;
 }
+
+.links-section{
+    padding: 20px;
+    background-color: #00a3c8;
+}
+.links-section img{
+    filter:contrast(90%);
+}
+
+footer{
+    padding: 50px;
+    background-color: #333;
+    color:#ccc;
+}
+
+footer p{
+    font-size:14px;
+}
+footer .divider{
+    width: 20%;
+    background-color: #fff;
+    margin-left: 0;
+}
+footer .footer-menu{
+    list-style-type: none;
+    padding: 0;
+}
+footer .footer-menu a{
+    color:#ccc;
+}
+footer .footer-menu a:hover{
+    color:#fff;
+}
+footer p{
+    margin-bottom: 3px;
+}
